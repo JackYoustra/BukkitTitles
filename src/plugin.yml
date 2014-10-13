@@ -1,0 +1,14 @@
+name: NametagSystem
+description: Assignes everyone a prefix
+main: jackyoustra.titleplugin.Main
+version: 0.1
+
+commands:
+  giveprefix:
+    description: gives the name prefix to a given player
+    usage: /<command> [targetname] [prefix]
+    default: op
+    permission-message: Only ops can change the prefix of your name
+  dump:
+    description: dumps output to player
+    default: op
